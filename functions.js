@@ -3,7 +3,7 @@ let lovejoomag = document.getElementById('lovejoomaglogo');
 let btn = document.getElementsByClassName('btn-primary');
 $(window).resize(function () {
     if ($(window).width() < 361) {
-
+        logodiv[0].style.top='-33px'
         // This part removes 3 logos of 5 in each slide
         for (let l in logodiv) {
             for (let k in logodiv[l].childNodes) {
