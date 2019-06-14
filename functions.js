@@ -1,6 +1,10 @@
 let logodiv = document.getElementsByClassName('logodiv');
 let lovejoomag = document.getElementById('lovejoomaglogo');
 let btn = document.getElementsByClassName('btn-primary');
+//for mobile
+if ($(window).width() < 361) {
+    logodiv[0].style.top='-33px'
+}
 $(window).resize(function () {
     if ($(window).width() < 361) {
         logodiv[0].style.top='-33px'
