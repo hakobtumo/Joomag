@@ -1,0 +1,231 @@
+.main{
+    width:100%;
+    overflow: hidden;
+    font-family: myriad-pro;
+}
+.header{
+    background: linear-gradient(45deg, rgb(29,5,97), rgb(94,73,138));
+    color:white;
+    padding-top:95px;
+    padding-bottom:95px;
+}
+.title{
+    padding: 0;
+    margin:0;
+    margin-top:50px;
+    font-size:36px;   
+}
+.littleText{
+    font-size: 18px;
+    margin:35px 0px 15px 0;
+    padding: 0 42px;
+}
+.lovejoomag{
+    width:216px;
+    height:22px;
+}
+.logo_imgs{
+    margin-top:50px;
+    
+}
+.logos{ 
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.toobigimg{
+    width:100px;
+    min-width:40px;
+    max-width:60px;
+    margin:0 25px;
+}
+.logodiv{
+    display: flex;
+    justify-content: space-around;
+
+}
+.logoimage{
+    min-width:45px;
+    max-width: 60px;
+    width:110px;
+}
+
+.l2{
+    position: relative;
+    top: -150px;
+    left: 0;
+    animation: anim1 6s infinite;
+    animation-timing-function:ease-in-out;
+}
+.l1{
+
+    animation: anim2 6s infinite;
+    animation-timing-function:ease-in-out;
+    /* animation-delay: 3s */
+    /* animation-direction: reverse; */
+}
+.WeWork{
+    width: 120vw;
+    margin-left:-10vw;
+    transform: rotate(-4deg);
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.WeWork:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -25%;
+    left: 0%;
+    z-index: -1;
+    background: linear-gradient(45deg, rgba(29,5,97,.9), rgba(94,73,138,.9)),url("./assets/image-we-work.jpg");
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+.WeWorkInfo{
+    transform: rotate(4deg);
+    color: white;
+
+
+}
+.WeWorkInfo h1{ 
+    margin: 0;
+}
+.WeWorkInfo p{ 
+    margin-top: 35px; 
+}
+form{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form input{
+    width: 285px;
+    height: 50px;
+    border-radius: 2px;
+    margin-bottom:35px;
+}
+form button{
+    width: 208px;
+    border-radius: 0;
+    height: 50px;
+}
+.features{
+    color: black;
+    padding-top: 100px;
+    text-align: right;
+}
+.features .row{
+    padding-bottom: 100px;
+}
+.features .row .features-image img{
+    max-width:300px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+.rev{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.hideme
+{
+    opacity:0;
+}
+.text-center p{
+    margin-bottom: 0;
+}
+.footer{
+    margin-top:-100px;
+    height: 800px;
+    overflow: hidden;
+}
+.WeWork1{
+    position: relative;
+    top: 330px;
+    width: 110vw;
+    margin-left:-4vw;
+    transform: rotate(-4deg);
+    overflow: hidden;
+    padding-top: 180px;
+    padding-bottom: 200px;  
+    background: linear-gradient(45deg, rgb(31,11,92), rgb(94,73,138));
+}
+.footerInfo{
+    transform: rotate(4deg);
+    color:white;
+}
+.footerp{
+    font-size:24px;
+}
+.smallp{
+    font-size: 14px;
+    margin-top:30px;
+}
+.footerInput{
+    width: 285px;
+    height: 50px;
+    border-radius: 2px;
+}
+.footerInfo form{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center
+}
+.footerbutton{
+    width: 208px;
+    border-radius: 0;
+    height: 50px;
+}
+
+
+.slide{
+    width: 200vw;
+    display: flex;
+    animation: anim 5s infinite;
+ 
+  
+}
+.logodiv{
+    width: 100vw;
+    display: flex;
+}
+@media only screen and (max-width: 576px) {
+    .features-text{
+        margin-top:50px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .WeWork1{
+        padding-top:50px
+    }
+}
+
+@keyframes anim1{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes anim2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
