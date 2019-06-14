@@ -3,6 +3,7 @@
     overflow: hidden;
     font-family: myriad-pro;
 }
+/* ********-----------------HEADER SECTION----------------------*******  */
 .header{
     background: linear-gradient(45deg, rgb(29,5,97), rgb(94,73,138));
     color:white;
@@ -24,6 +25,7 @@
     width:216px;
     height:22px;
 }
+/* ********-----------------LOGOS SECTION----------------------*******  */
 .logo_imgs{
     margin-top:50px;
     
@@ -58,12 +60,10 @@
     animation-timing-function:ease-in-out;
 }
 .l1{
-
     animation: anim2 6s infinite;
     animation-timing-function:ease-in-out;
-    /* animation-delay: 3s */
-    /* animation-direction: reverse; */
 }
+/* ********-----------------CURVED DIV WITH FORM SECTION----------------------*******  */
 .WeWork{
     width: 120vw;
     margin-left:-10vw;
@@ -113,6 +113,7 @@ form button{
     border-radius: 0;
     height: 50px;
 }
+/* ********-----------------CONTENT FEATURES SECTION----------------------*******  */
 .features{
     color: black;
     padding-top: 100px;
@@ -139,12 +140,13 @@ form button{
 .text-center p{
     margin-bottom: 0;
 }
-.footer{
+/* ********-----------------FOOTER SECTION----------------------*******  */
+.forFooter{
     margin-top:-100px;
     height: 800px;
     overflow: hidden;
 }
-.WeWork1{
+.footer{
     position: relative;
     top: 330px;
     width: 110vw;
@@ -201,11 +203,12 @@ form button{
     }
 }
 @media only screen and (max-width: 576px) {
-    .WeWork1{
+    .footer{
         padding-top:50px
     }
 }
 
+/*LOGO ANIMATION SECTION*/
 @keyframes anim1{
     0%{
         opacity: 1;
